@@ -1,0 +1,72 @@
+.container-carusel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.container-carusel-images {
+  width: 1066px;
+  height: 334px;
+  background: rgba(245, 216, 192, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+}
+
+.container-carusel-arrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-offer {
+  display: flex;
+  flex-direction: column;
+}
+.text-hasta {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.container-offer-value {
+  height: 45%;
+}
+
+.vertical-line {
+  margin-top: 20px;
+  height: 50%;
+  border-radius: 2px;
+  margin-left: 15px;
+  border: 3px solid #227734;
+  transform: rotate(180deg);
+  float: left;
+}
+
+.text-porcentaje {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #48b760;
+  margin: 0;
+}
+
+.text-off {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #48b760;
+}

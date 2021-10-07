@@ -1,0 +1,108 @@
+.text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+}
+
+.title-tienda {
+  width: 485px;
+  height: 29px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.subtitle-tienda {
+  width: 613px;
+  height: 132px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.title-li {
+  width: 600px;
+  height: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+ul {
+  list-style-image: url('../../resources/icons/check.png');
+}
+.form {
+  background: #f1f2f6;
+  border: 1px solid #b6b6b6;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  width: 511px;
+  height: 190px;
+}
+.item-providen {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  height: 48px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.container-crea-tu-cuenta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-uno {
+  height: 59px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+
+.text-dos{
+width: 840px;
+height: 131px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #000000;
+margin: 0;
+}

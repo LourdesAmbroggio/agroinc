@@ -1,0 +1,58 @@
+.market-search {
+  &__search-and-menu {
+    width          : 100%;
+    padding        : 0 5%;
+    margin-top     : 15px;
+    display        : flex;
+    justify-content: center;
+
+    .ant-input-affix-wrapper {
+      background-color: #f1f2f6;
+      height: 70px;
+    }
+
+    .ant-input {
+      background-color: #f1f2f6;
+      font-style      : normal;
+      font-weight     : bold;
+      font-size       : 22px;
+      line-height     : 27px;
+    }
+
+    .ant-input::placeholder {
+      color: #adadad;
+    }
+
+    .ant-input-search {
+      border-radius: 1em;
+      overflow     : hidden;
+      box-shadow   : 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+
+      * {
+        border    : none;
+        box-shadow: unset;
+      }
+
+      .ant-input-search-button {
+        width: 0;
+      }
+    }
+  }
+
+  &__search-btn {
+    .ant-btn-primary {
+      opacity       : 0.6;
+      background    : rgba(72, 183, 96, 0.6);
+      border-radius : 10px;
+      font-style    : normal;
+      font-weight   : bold;
+      font-size     : 18px;
+      line-height   : 22px;
+      text-align    : center;
+      letter-spacing: 0.02em;
+      color         : #000000;
+      height: 44px;
+    }
+  }
+}
